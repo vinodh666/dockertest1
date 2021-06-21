@@ -8,11 +8,11 @@ pipeline {
     }
     agent any
     stages {
-        stage('Cloning our Git') {
+        /*stage('Cloning our Git') {
             steps {
                 git 'https://github.com/mavrick202/dockertest1.git'
             }
-        }
+        }*/
         stage('Building our image') {
             steps {
                 script {
