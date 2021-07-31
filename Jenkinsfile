@@ -43,7 +43,7 @@ pipeline {
     stage('Checking The WebApp Rechability') {
       steps {
         sh "sleep 10"
-        sh "curl http://$dockerSwarmManager:8200 || exit 1 "
+        sh "curl http://$dockerSwarmManager:8100 || exit 1 "
         }
     }
   }
