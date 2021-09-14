@@ -54,4 +54,3 @@ function randomnumbers(){
     return "rgb("+red+", "+green+", "+blue+")"
 }
 
-//
